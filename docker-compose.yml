@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     build: .
-    image: ${DOCKER_USR}/doit
+    image: ${DOCKER_USR}/prac
     ports:
-      - "8080:80"
-    container_name: doit
+      - "8080:8080"
+    container_name: practice_c
